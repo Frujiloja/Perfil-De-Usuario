@@ -5,10 +5,22 @@
     align-items: center;
     padding: 6rem;
     min-height: 100vh;
+    background-image: url('/bg.jpg');
   }
 
 .data {
-  background-color: red;
   display: flex;
+  flex-direction: column;
   margin-top: 5vh;
+  align-items: center;
+  height: 60vh;
+}
+
+.datacontainer {
+  display: flex;
+}
+
+.form {
+  margin-top: 5vh;
+  width: 30vw;
 }

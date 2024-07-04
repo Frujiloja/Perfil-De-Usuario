@@ -1,4 +1,5 @@
-"use client";
+"use client"; // Añadir esta línea
+
 import React, { useState } from 'react';
 import styles from './ContactForm.module.css';
 
@@ -57,7 +58,9 @@ const ContactForm = () => {
           required
         ></textarea>
       </div>
+      <div className={styles.button}>
       <button type="submit" className={styles.submitButton}>Enviar</button>
+      </div>
     </form>
   );
 };

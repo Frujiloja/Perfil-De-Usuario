@@ -1,12 +1,23 @@
-import style from "./Interests.module.css";
+import React from 'react';
+import styles from './Interests.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFutbol, faDumbbell, faDog, faDesktop } from '@fortawesome/free-solid-svg-icons';
 
 const Interests = () => {
-    return (
-      <div className={style.interests}>
-        <h1>Mis Intereses</h1>
-        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+  return (
+    <div className={styles.interests}>
+      <h1>Mis Intereses</h1>
+      <p>Soy un apasionado programador con una profunda fascinación por la tecnología. Desde una temprana edad, me he sentido atraído por el mundo de la programación y la innovación tecnológica. Me encanta explorar nuevas herramientas y lenguajes de programación, siempre buscando formas de mejorar y optimizar mi trabajo.
+      Fuera del ámbito profesional, soy un entusiasta del fútbol, disfrutando tanto de jugar como de seguir los partidos de mis equipos favoritos. El deporte me ayuda a mantenerme activo y a liberar el estrés del día a día. Además, soy un asiduo del gimnasio, donde encuentro un espacio para mantenerme en forma y cuidar de mi salud física.
+      </p>
+      <div className={styles.iconContainer}>
+        <FontAwesomeIcon icon={faFutbol} className={styles.icon} />
+        <FontAwesomeIcon icon={faDumbbell} className={styles.icon} />
+        <FontAwesomeIcon icon={faDog} className={styles.icon} />
+        <FontAwesomeIcon icon={faDesktop} className={styles.icon} />
       </div>
-    );
-  };
-  
-  export default Interests;
+    </div>
+  );
+};
+
+export default Interests;

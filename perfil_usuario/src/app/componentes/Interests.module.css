@@ -2,6 +2,20 @@
     display: flex;
     flex-direction: column;
     width: 50vw;
-    height: 20vh;
+    height: 40vh;
     padding: 5vh;
 }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 5vh;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #ffffff; /* Color de los iconos, ajusta según necesites */
+  }
+  
