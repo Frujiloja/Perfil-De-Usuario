@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    width: 100vw;
+    height: 20vh;
+    padding: 5vh;
+}
+
+.image{
+    height: 35vh;
+    border-radius: 120px;
+}
+
+.text{
+    margin-left: 5vh;
+    color: white;
+    font-size: 5vh;
+}

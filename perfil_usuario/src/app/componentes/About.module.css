@@ -1,0 +1,7 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 20vh;
+    padding: 5vh;
+}
