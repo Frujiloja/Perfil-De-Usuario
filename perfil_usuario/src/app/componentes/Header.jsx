@@ -1,18 +1,20 @@
-import style from "./Header.module.css";
-import React from "react";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div className={style.header}>
+    <div className={styles.header}>
       <div>
         <img
-          className={style.image}
+          className={styles.image}
           src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
           alt="profile picture"
         />
       </div>
       <div>
-        <h1 className={style.text}>Martin Fuks</h1>
+        <h1 className={styles.text}>Erik Castello</h1>
+      </div>
+      <div>
+        <img className={styles.signature} src="/erik.png" alt="signature" />
       </div>
     </div>
   );

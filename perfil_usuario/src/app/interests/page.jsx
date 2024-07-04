@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Interests.module.css';
+import styles from './page.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFutbol, faDumbbell, faDog, faDesktop } from '@fortawesome/free-solid-svg-icons';
 

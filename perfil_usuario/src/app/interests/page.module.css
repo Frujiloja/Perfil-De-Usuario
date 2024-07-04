@@ -1,9 +1,12 @@
 .interests {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 100vw;
     height: 40vh;
     padding: 5vh;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    margin-top: 10vh;
 }
   
   .iconContainer {
