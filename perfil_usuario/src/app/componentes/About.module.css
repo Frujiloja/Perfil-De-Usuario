@@ -4,4 +4,17 @@
     width: 50vw;
     height: 20vh;
     padding: 5vh;
+    margin-left: 40vw;
+    margin-top: 20vh;
+    font-size: large;
+}
+
+
+.signature {
+    margin-top: 10vh;
+    height: 16vw;
+  }
+
+.Acerca {
+  font-size: 2.5rem;
 }

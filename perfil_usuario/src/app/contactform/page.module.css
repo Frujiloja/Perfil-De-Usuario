@@ -1,15 +1,30 @@
+.fullScreenBackground {
+  background: url('/3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
 .contactForm {
-  max-width: 600px;
+  width: 30vw;
+  min-width: 300px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff21;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 2vh;
+  margin-top: 5vh;
+  height: 50vh;
 }
+
 
 .formGroup {
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .formGroup label {
@@ -48,5 +63,11 @@
 }
 
 .submitButton:hover {
-  background-color: #dca226;
+  background-color: #e3ad39;
+}
+
+.gracias {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
 }
