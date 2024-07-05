@@ -7,7 +7,6 @@ Página web de un perfil de usuario que incluya información básica, intereses 
 
    ```bash
    git clone https://github.com/Frujiloja/Perfil-De-Usuario.git
-   cd perfil-usuario
 
 2. **Abrir Terminal:**
 
